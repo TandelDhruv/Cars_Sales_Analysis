@@ -6,8 +6,8 @@
 - Total Cars: To get count of total records.
 - How many cars will be availabe in year 2017,2018,2019,2020?
 - Total cars available by year.
-- Total revenue.
-- Total revenue by fuel type,owner Category,Transmission type,seats.
+- Total Selling Price of all Cars.
+- Selling Price by fuel type,owner Category,Transmission type,seats.
 - How many Total diesel cars available by year?
 - How many Total petrol cars available by year?
 - Which year had more than 100 Cars?
