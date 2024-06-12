@@ -15,32 +15,32 @@ Use Car_Salesdb;
     From car_sales
     Group By Year;	
     
--- Total revenue.
-	Select Sum(Selling_Price) as Total_Revenue
+-- Total Selling Price of all Cars.
+	Select Sum(Selling_Price) as Selling Prices
     From Car_Sales;
     
--- Total revenue by year.
-	Select Year,Sum(Selling_Price) as Total_Revenue
+-- Total Selling Price by year.
+	Select Year,Sum(Selling_Price) as Selling Prices
     From Car_Sales
     Group by year;
     
--- Total revenue by fuel type.
-	Select Fuel as Fuel_Type,Sum(Selling_Price) as Total_Revenue
+-- Total Selling Price by fuel type.
+	Select Fuel as Fuel_Type,Sum(Selling_Price) as Selling Prices
     From Car_Sales
     Group by Fuel;
     
--- Total revenue by owner Category.
-	Select Owner as Owner_Category,Sum(Selling_Price) as Total_Revenue
+-- Total Selling Price by owner Category.
+	Select Owner as Owner_Category,Sum(Selling_Price) as Selling Prices
     From Car_Sales
     Group by Owner;
 
--- Total revenue by Transmission type.
-	Select Transmission as Transmission_Type,Sum(Selling_Price) as Total_Revenue
+-- Total Selling Price by Transmission type.
+	Select Transmission as Transmission_Type,Sum(Selling_Price) as Selling Prices
     From Car_Sales
     Group by Transmission;
     
--- Total revenue by Seats.
-	Select Seats,Sum(Selling_Price) as Total_Revenue
+-- Total Selling Price by Seats.
+	Select Seats,Sum(Selling_Price) as Selling Prices
     From Car_Sales
     Group by Seats
     order by Total_Revenue desc;
